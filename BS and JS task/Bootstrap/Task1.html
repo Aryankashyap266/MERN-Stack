@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-2 BootStrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <header class="text-center " style="background-color: rgb(83, 197, 228);"><h1>Ethnus Layout</h1></header>
+  
+  <nav class="navbar navbar-expand-lg navbar-light " style="background-color: grey;color: white;">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto" >
+        <li class="nav-item active">
+          <a class="nav-link" href="#" style="color: white;" >Home</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;">Menu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: white;">Contact</a>
+        </li>
+      </ul>
+      <a class="nav-link mx-5 ms-auto" href="#">SignUp</a>
+      <a class="nav-link ml-auto" href="#">LogIn</a>
+    </div>
+  </nav>
+  <div class="h-100 mh-100">
+    <div class="text-center w-75 d-inline-block m-0 p-0 vh-100">This is Content</div><div class="text-center w-25 d-inline-block m-0 p-0  text-white vh-100" style="background-color: rgb(92, 89, 89);">This is sidebar</div>
+  </div>
+</body>
+</html>
